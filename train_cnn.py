@@ -15,6 +15,7 @@ import numpy as np
 def train(trainX, trainY):
     '''
     Complete this function.
+    Note: Load model in folder ./tmp/
     '''
 
 
@@ -27,6 +28,9 @@ def test(testX):
     length equal to the number of examples. The i-th element
     of the array should contain the label of the i-th test
     example.
+    
+    
+    Note: Download and Load model in folder ./dtmp/
     '''
 
     return np.zeros(testX.shape[0])
